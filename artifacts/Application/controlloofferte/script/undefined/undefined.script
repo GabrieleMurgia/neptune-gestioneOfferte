@@ -1,0 +1,390 @@
+@charset "UTF-8";
+.VBox16, .VBox16, .VBox11 {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.linkSPclienti {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonExpandSx {
+  visibility: hidden;
+}
+
+.HBox14 {
+  width: 50%;
+  justify-content: center;
+}
+
+.VBox1, .VBox {
+  border: 2px solid black !important;
+  min-height: 84.5vh !important;
+  max-height: 84.5vh !important;
+  min-width: 30vw !important;
+  background-color: white !important;
+  border-bottom: none !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.subIcons {
+  font-size: 11px;
+  color: black;
+  text-align: center !important;
+  width: 5vw;
+}
+
+.labels {
+  font-size: 15px;
+}
+
+.panelScroll, .ScrollContainer {
+  height: 75vh !important;
+}
+
+.iconsContainer {
+  width: 3vw;
+}
+
+.CustomListItemOfferte .sapMLIBContent > div.sapMFlexBox:hover {
+  background: transparent !important;
+}
+
+.HBox10, .HBox11, .HBox5 {
+  width: 49% !important;
+  align-items: center !important;
+}
+
+.statusIcon1 {
+  font-size: clamp(16px, 2vw, 28px);
+  color: silver;
+}
+
+.statusIcon2 {
+  font-size: 40px !important;
+}
+
+.toolBarDX {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+.refreshButton span {
+  color: blue;
+}
+
+.refreshButton {
+  border: 1px solid 0, 212, 255, 1 !important;
+}
+
+.testFooter {
+  border: 2px solid black !important;
+  width: 60vw !important;
+  border-top: none !important;
+  background-color: white !important;
+}
+
+.oPageCheckOfferte {
+  background: linear-gradient(270deg, rgb(0, 212, 255) 61%, rgb(0, 254, 255) 100%) !important;
+}
+
+.VBox {
+  border-top-left-radius: 20px !important;
+}
+
+.HBox7 {
+  gap: 1vw !important;
+}
+
+.textStatus {
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+
+.toolBar, .toolBarDX {
+  min-height: 10vh !important;
+}
+
+.HBox10 {
+  position: sticky !important;
+}
+
+.ListOfferte {
+  border: 1px solid black !important;
+  min-height: 75vh !important;
+  background: linear-gradient(270deg, rgb(0, 212, 255) 61%, rgb(0, 254, 255) 100%) !important;
+}
+
+.VBox9 {
+  border: 1px solid black !important;
+  min-height: 67vh !important;
+  background: linear-gradient(270deg, rgb(0, 212, 255) 61%, rgb(0, 254, 255) 100%) !important;
+}
+
+.CustomListItemOfferte .invisibleButton {
+  background-color: none !important;
+  height: 100% !important;
+  width: 100% !important;
+  bottom: 8px !important;
+  padding: 10px !important;
+}
+
+.HBox1 {
+  padding: 10px !important;
+}
+
+/* Media Queries */
+@media screen and (orientation: landscape) {
+  /* Stili per la modalità landscape */
+}
+.VBox1, .VBox {
+  border: 2px solid black !important;
+  min-height: 0vh !important;
+  background-color: white !important;
+  border-bottom: none !important;
+  position: relative;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .panelScroll {
+    max-width: 100% !important;
+  }
+  .labels {
+    font-size: 10px;
+  }
+  .buttonExpandSx {
+    visibility: visible;
+  }
+  .subIcons {
+    display: none;
+  }
+  .statusIcon1 {
+    font-size: 15px !important;
+    color: silver;
+  }
+  .statusIcon2 {
+    font-size: 25px !important;
+  }
+  .testFooter {
+    border: 2px solid black !important;
+    width: 100vw !important;
+    border-top: none !important;
+    background-color: white !important;
+  }
+  .VBox1 {
+    min-width: 0vw !important;
+  }
+  .VBox1Expand {
+    width: 100vw !important;
+  }
+  .toolBarDXExpand {
+    width: 100vw !important;
+    background-color: white;
+  }
+  .VBox6 {
+    background-color: white;
+  }
+  .VBox {
+    min-width: 100vw !important;
+    overflow-y: hidden !important;
+  }
+  .VBoxShrink {
+    min-width: 0vw !important;
+    overflow-y: hidden !important;
+  }
+  .VBoxHidden {
+    width: 0vw;
+  }
+  .HBox8 {
+    justify-content: center;
+  }
+  .HBox8 div {
+    justify-content: center;
+    display: flex;
+    width: 355px;
+  }
+  .HBox10 {
+    justify-content: flex-start;
+    position: relative !important;
+    right: 26px;
+  }
+  .panelScroll {
+    height: 63vh !important;
+  }
+  .panelScroll, .ScrollContainer {
+    height: 63vh !important;
+    background: white;
+  }
+  .VBox {
+    min-height: 0vh !important;
+  }
+  #mainHBOX {
+    /* height: 70vh!important; */
+    height: 100% !important;
+  }
+  #ScrollContainer ul {
+    height: 65vh !important;
+  }
+  /*   .buttonAddNew{
+        visibility: hidden;
+    } */
+  .buttonAddNeVisible {
+    visibility: visible;
+  }
+  .ListOfferte {
+    min-height: 63vh !important;
+  }
+  .HBox3 {
+    margin: 0 !important;
+  }
+}
+.LoadingScreen {
+  background-color: #fcaf58;
+}
+
+.LoadScreenImage {
+  filter: brightness(10);
+}
+
+.cs-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.cs-loader-inner {
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+  width: calc(100% - 200px);
+  color: #ffffff;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.labelSpinner {
+  font-size: 3rem;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.Label5 {
+  -webkit-animation: loaderDots 2s infinite ease-in-out;
+  animation: loaderDots 2s infinite ease-in-out;
+}
+
+.Label4 {
+  -webkit-animation: loaderDots 2s 100ms infinite ease-in-out;
+  animation: loaderDots 2s 100ms infinite ease-in-out;
+}
+
+.Label3 {
+  -webkit-animation: loaderDots 2s 200ms infinite ease-in-out;
+  animation: loaderDots 2s 200ms infinite ease-in-out;
+}
+
+.Label2 {
+  -webkit-animation: loaderDots 2s 300ms infinite ease-in-out;
+  animation: loaderDots 2s 300ms infinite ease-in-out;
+}
+
+.Label1 {
+  -webkit-animation: loaderDots 2s 400ms infinite ease-in-out;
+  animation: loaderDots 2s 400ms infinite ease-in-out;
+}
+
+.Label {
+  -webkit-animation: loaderDots 2s 500ms infinite ease-in-out;
+  animation: loaderDots 2s 500ms infinite ease-in-out;
+}
+
+@keyframes loaderDots {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  33% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  66% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+}
+#InviaBtn-img {
+  color: green;
+}
+
+#AnullaBtn-img {
+  color: red;
+}
+
+.LoadingScreen {
+  background-color: #fff;
+}
+
+.labelSpinner {
+  font-size: 3rem;
+  color: silver;
+  opacity: 0;
+}
+
+.Label5 {
+  -webkit-animation: loaderDots 1.5s infinite ease-in-out;
+  animation: loaderDots 1.5s infinite ease-in-out;
+}
+
+.Label4 {
+  -webkit-animation: loaderDots 1.5s 100ms infinite ease-in-out;
+  animation: loaderDots 1.5s 100ms infinite ease-in-out;
+}
+
+.Label3 {
+  -webkit-animation: loaderDots 1.5s 200ms infinite ease-in-out;
+  animation: loaderDots 1.5s 200ms infinite ease-in-out;
+}
+
+.Label2 {
+  -webkit-animation: loaderDots 1.5s 300ms infinite ease-in-out;
+  animation: loaderDots 1.5s 300ms infinite ease-in-out;
+}
+
+.Label1 {
+  -webkit-animation: loaderDots 1.5s 400ms infinite ease-in-out;
+  animation: loaderDots 1.5s 400ms infinite ease-in-out;
+}
+
+.Label {
+  -webkit-animation: loaderDots 1.5s 500ms infinite ease-in-out;
+  animation: loaderDots 1.5s 500ms infinite ease-in-out;
+}
+
+@keyframes loaderDots {
+  0% {
+    opacity: 0;
+    transform: translateX(-10vw);
+  }
+  33% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  66% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(10vw);
+  }
+}

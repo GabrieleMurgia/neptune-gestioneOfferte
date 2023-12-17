@@ -1,0 +1,88 @@
+.toolBarManager{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+#oShellGestioneOfferte{
+    padding: 5px;
+    background:#5db1bb
+}
+
+.oAppGestioneOfferte{
+    border-radius: 20px!important;
+    overflow: hidden;
+    border: 3px solid black!important;
+}
+
+#oAppGestioneOfferte{
+     border-radius: 20px!important;
+     overflow: hidden;
+}
+
+#oPageGestioneOfferte{
+    border-radius: 20px;
+    border: 2px solid balck
+}
+
+#tableOfferteManager{ 
+   padding:10px;
+}
+
+#oShellGestioneOfferte #oShellGestioneOfferte-content{
+    border-radius: 20px!important;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+#oFooterOffertet{
+     border: 2px solid black;
+ }
+
+#oPageGestioneOfferte-cont{
+    background:#cdf9fe
+}
+#tableOfferteManager div span, #tableOfferteManager td span , button span {
+  max-width: 150px!important; /* O la larghezza desiderata */
+  text-overflow: ellipsis!important;
+  overflow: hidden!important;
+  white-space: nowrap!important;
+}
+
+@media only screen and (max-width: 600px) {
+   #oShellGestioneOfferte{
+    padding: 0px;
+    background:#5db1bb
+}
+
+#tableOfferteManager div span, #tableOfferteManager td span {
+ font-size: 8px;
+ padding: 0;
+ margin: 0;
+}
+
+#tableOfferteManager button span{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 0;
+ margin: 0;
+ height: 25px;
+ width: 15px;
+  text-overflow: ellipsis!important;
+  overflow: hidden!important;
+  white-space: nowrap!important;
+}
+
+
+}
+/* #tableOfferteManager div{
+    display: flex;
+    justify-content: center!important;
+}
+
+#tableOfferteManager td span{
+    display: flex;
+    justify-content: center!important;
+} */

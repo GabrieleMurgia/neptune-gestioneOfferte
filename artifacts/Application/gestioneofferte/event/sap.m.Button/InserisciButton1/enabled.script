@@ -1,0 +1,11 @@
+
+
+var formattedText;
+
+if(status === "step5"){
+    formattedText = false
+}else{
+     formattedText = true
+}
+
+return formattedText;

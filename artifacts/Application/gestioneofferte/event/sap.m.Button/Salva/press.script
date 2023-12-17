@@ -1,0 +1,12 @@
+ 
+
+let payload = modeltableOfferteManager.oData.filter(item=> item.status !== "step1")
+
+var options = {
+    data:payload
+};
+
+apiinsertPdf(options);
+
+
+reloadAfterOneSecond()

@@ -1,0 +1,26 @@
+{
+	"id": "50e1f617-b48c-4c3b-a92a-7040763ffbe8",
+	"createdAt": "2023-11-23T20:15:50.000Z",
+	"createdBy": "murgiag",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "e67e704c-6dc0-4329-bb15-8eb638563b16",
+			"name": "tableofferte",
+			"contextname": "tableofferte"
+		}
+	],
+	"apis": [],
+	"name": "handleCheck",
+	"ver": "23.11.26.2212",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "e2d18b19-e8c8-4c1e-a81e-6eef805289a9",
+	"package": "5251e2b7-7265-47ca-90da-e299616c3af1"
+}

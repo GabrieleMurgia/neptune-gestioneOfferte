@@ -1,0 +1,12 @@
+{
+	"id": "f5432db5-5ec7-46cc-8484-8afa267fad17",
+	"createdAt": "2023-11-25T14:28:47.000Z",
+	"createdBy": "murgiag",
+	"translation": null,
+	"name": "Offerta Inviata",
+	"description": "Avviso Offerta Inviata",
+	"content": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\"><link href=\"https://webdisp.pl3group.com:44304/public/editor/suneditor.min.css\" rel=\"stylesheet\"></head><body class=\"sun-editor-editable\" style=\"\" ><h2>Avviso Offerta Inviata</h2><p>Si avvisa che è stata generata una richiesta di generazione offerta con i seguenti dettagli:</p><ul><li>Cliente: {=cliente}</li><li>Titolo: {=titolo}</li><li>Oggetto Offerta: {=oggettoOfferta}</li><li>Data Richiesta: {=dataRichiesta}</li><li>Richiedente: {=richiedente}</li></ul><p>Grazie e cordiali saluti</p></body></html>",
+	"ver": "23.11.25.1528",
+	"type": "template",
+	"package": "5251e2b7-7265-47ca-90da-e299616c3af1"
+}

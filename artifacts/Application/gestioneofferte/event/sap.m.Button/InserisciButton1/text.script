@@ -1,0 +1,20 @@
+if (typeof status === "undefined" || status === null || status === "") { return; }  
+
+let formattedText;
+
+if(status === "step1"){
+    formattedText = "pathSP offerte clienti"
+}else if(status === "step2"){
+    formattedText = "Rimuovi path"
+}else if(status === "step3"){
+    formattedText = "Invia al cliente"
+}else if(status === "step4"){
+    formattedText = "Offerta firmata"
+}else if(status === "step5"){
+    formattedText = "Flow Terminato"
+}else{
+    formattedText = "pathSP offerte clienti"
+}
+/* 
+var formattedText = status;  */
+return formattedText;

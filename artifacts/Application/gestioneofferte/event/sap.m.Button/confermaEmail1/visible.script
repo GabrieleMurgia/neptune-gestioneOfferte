@@ -1,0 +1,8 @@
+var formattedText 
+
+if(status === "step3"){
+    formattedText = true
+}else{
+    formattedText = false
+}
+return formattedText;

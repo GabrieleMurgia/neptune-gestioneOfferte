@@ -1,0 +1,31 @@
+//This code triggers when we have successfully uploaded a file.
+console.log("File Allowed");
+
+//Take the file from the FileUploader object.
+var file = pdfUpload.oFileUpload.files[0];
+
+var fileReader = new FileReader();
+var base64;
+var pdf;
+ 
+  
+
+fileReader.onload = function(fileLoadedEvent) {
+    //Get the base64 representation
+    base64 = fileLoadedEvent.target.result;
+    //Strip the header data.
+    pdf = base64.slice(28,base64.length);
+
+    handleInsertPdf(base64,fileLoadedEvent)
+
+    //This is used as a placeholder to save the data for the submission.
+    
+    //convert the PDF into a URL
+  /*   var pdfurl = createDataURL(pdf);
+    oPDFViewer.setSource(pdfurl)
+    oPDFViewer.setVisible(true); */
+    
+};
+
+// Convert data to base64
+fileReader.readAsDataURL(file);

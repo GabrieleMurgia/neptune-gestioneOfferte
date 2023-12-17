@@ -1,0 +1,97 @@
+{
+	"id": "8288dd58-8f15-4c10-97ff-ba293deab928",
+	"createdAt": "2023-11-23T10:55:08.000Z",
+	"createdBy": "murgiag",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "eb0a5b27-b804-43c7-f664-68e7d53be685",
+			"method": "POST",
+			"path": "/insertPdf",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [
+				{
+					"objectType": "array",
+					"items": []
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "e03f1ccb-35f4-42f4-a1f8-63463c692955"
+		},
+		{
+			"id": "4ab651d6-a333-4f33-9b62-e53914d7777c",
+			"method": "POST",
+			"path": "/documentChecked",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [
+				{
+					"objectType": "object",
+					"items": []
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "50e1f617-b48c-4c3b-a92a-7040763ffbe8"
+		},
+		{
+			"id": "3a1339f4-5dff-421d-a637-cb3ba94fa665",
+			"method": "POST",
+			"path": "/handleEmail",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [
+				{
+					"objectType": "object",
+					"items": []
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "e58bb5bc-c312-4e40-a0c5-8384b16a1ba1"
+		}
+	],
+	"definitions": [
+		{
+			"id": "dac3ee03-eab3-4bde-af51-5646194a0b3e",
+			"name": "body",
+			"description": "",
+			"isInclude": false,
+			"properties": [],
+			"type": "object"
+		}
+	],
+	"documentation": [],
+	"name": "OfferteApi",
+	"endpoint": "/public/serverscript/offerteapi",
+	"ver": "23.11.25.1637",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": true,
+	"tlsAllowUntrusted": true,
+	"useOwnProcess": false,
+	"package": "5251e2b7-7265-47ca-90da-e299616c3af1",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

@@ -1,0 +1,3 @@
+if (typeof richiedente === "undefined" || richiedente === null || richiedente === "") { return; }  
+var formattedText = richiedente.name; 
+return formattedText;

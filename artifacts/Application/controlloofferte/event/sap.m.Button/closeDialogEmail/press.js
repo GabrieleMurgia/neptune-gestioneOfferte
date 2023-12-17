@@ -1,0 +1,3 @@
+dialogEmail.close()
+
+textAreaOfferteClienti.setValue("")

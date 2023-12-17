@@ -1,0 +1,20 @@
+{
+	"id": "e58bb5bc-c312-4e40-a0c5-8384b16a1ba1",
+	"createdAt": "2023-11-25T15:16:35.000Z",
+	"createdBy": "murgiag",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "handleEmail",
+	"ver": "23.12.15.1612",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "e2d18b19-e8c8-4c1e-a81e-6eef805289a9",
+	"package": "5251e2b7-7265-47ca-90da-e299616c3af1"
+}

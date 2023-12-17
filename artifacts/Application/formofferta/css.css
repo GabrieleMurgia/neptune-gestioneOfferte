@@ -1,0 +1,60 @@
+.buttonSubmitRequest{
+    align-self: end;
+}
+.mainContainer{
+    /* gap:10vw */
+}
+.labelForm{
+    font-size: 15px;
+    font-weight: bold;
+}
+.toolBar{
+    padding: 10px;
+}
+.textToolbar{
+    font-size: 14px;
+    color: white;
+}
+
+.statusImageOfferta{
+    border-radius: 20px;
+}
+
+.dialogListOfferte #Toolbar{
+    font-weight: bold;
+}
+.dialogListOfferte {
+    top:20px!important;
+    border: 2px solid black;
+}
+
+.dialogListOfferte #Toolbar > li{
+    background:#5db1bb!important;
+}
+
+#oPageOfferte{
+ background:#5db1bb
+}
+
+#SimpleFormOfferte{
+        border: 2px solid black;
+        border-radius: 18px;
+        overflow: hidden;
+}
+
+#ListOfferte li{
+  border-bottom: 1px solid black;
+  border-radius: 20px;
+}
+.dialogListOfferte  section > div {
+    background:#5db1bb!important;
+}
+
+
+.dialogListOfferte #Toolbar{
+     background:#5db1bb!important;
+}
+.hLayoutDetails div:nth-child(2) {
+    width: 100vw;
+    height: 95vh
+}

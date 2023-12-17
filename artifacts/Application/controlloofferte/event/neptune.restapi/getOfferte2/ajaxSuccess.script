@@ -1,0 +1,26 @@
+let list;
+
+if(modeluserInfo.getData().username === "murgiag" 
+|| modeluserInfo.getData().username === "piccinnid"
+|| modeluserInfo.getData().username === "monicap"){
+     list = xhr.responseJSON
+}else{
+     list = xhr.responseJSON.filter(item => item.richiedente.username === modeluserInfo.getData().username)
+}
+modelbackupListaOfferte.setData(list)
+ 
+sap.ui.core.BusyIndicator.hide();
+ 
+let selectedItem = modelselectedOfferObject.getData()
+
+if(selectedItem.id){
+     
+     let newState = list.filter(item=> item.id === selectedItem.id)[0]
+     handleDettaglio(newState)
+     handleChangeTab(newState)
+     handleManager(newState)
+}
+
+handleFiltro(modeltempFilter.getData().step,modeltempFilter.getData().iconRef)
+
+ 

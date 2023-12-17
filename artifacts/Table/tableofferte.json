@@ -1,0 +1,77 @@
+{
+	"id": "e67e704c-6dc0-4329-bb15-8eb638563b16",
+	"createdAt": "2023-11-21T16:20:14.000Z",
+	"createdBy": "murgiag",
+	"fields": [
+		{
+			"id": "ac59df80-6469-47ad-dd6b-32c991bbb7d0",
+			"fieldName": "cliente",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "488b3f62-1395-49a4-b0c9-e08b48bee076",
+			"fieldName": "titolo",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "02198dc2-f52f-41f1-d5c6-0609fc9129cf",
+			"fieldName": "oggettoOfferta",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "5052ad0f-fda6-40ca-d252-f9f0dedce9e7",
+			"fieldName": "dataRichiesta",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "3c4b81d8-b1c8-44eb-fb07-af896c372f0f",
+			"fieldName": "richiedente",
+			"fieldType": "json",
+			"isUnique": false
+		},
+		{
+			"id": "66c7af5b-6c2e-40cf-e362-aa95b5a86249",
+			"fieldName": "path",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "34a96e26-17f1-489f-c1c3-118370e0a5cf",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "72130298-a3c0-4399-8e73-9cbb6bd6e9ff",
+			"fieldName": "pdfOfferta",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9821f5c8-51d2-44bb-89d6-e0ab72798bd4",
+			"fieldName": "nrOffertaSap",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "tableofferte",
+	"description": null,
+	"ver": "23.11.25.162",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "5251e2b7-7265-47ca-90da-e299616c3af1",
+	"rolesRead": [],
+	"rolesWrite": []
+}

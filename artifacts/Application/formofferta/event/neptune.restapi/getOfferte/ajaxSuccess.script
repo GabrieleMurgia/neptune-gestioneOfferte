@@ -1,0 +1,7 @@
+let list = xhr.responseJSON.filter(item => item.richiedente.username === modeluserInfo.getData().username)
+
+modelbackupListaOfferte.setData(list)
+modelListOfferte.setData(list)
+modelListOfferte.refresh()
+
+sap.m.MessageToast.show("Offerte Caricate");

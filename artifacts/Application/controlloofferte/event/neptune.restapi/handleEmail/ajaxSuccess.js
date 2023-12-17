@@ -1,0 +1,2 @@
+resetForm()
+refreshButton.firePress()

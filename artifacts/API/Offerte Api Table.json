@@ -1,0 +1,358 @@
+{
+	"id": "588f291a-3595-4747-a14c-77c51baa03b1",
+	"createdAt": "2023-11-21T16:21:04.000Z",
+	"createdBy": "murgiag",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "60920d99-3cc9-4eef-97b1-53ce2e59c388",
+			"path": "/tableofferte",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tableofferte"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d6465da4-096b-49a0-b247-1d31b66e5fbd",
+			"path": "/tableofferte",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "tableofferte"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tableofferte"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "7bf9bb83-6ddd-4134-9bc2-7c4ff418369b",
+			"path": "/tableofferte",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "tableofferte"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tableofferte"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "c3eb2a47-dc57-4749-86eb-4a34764bc707",
+			"path": "/tableofferte",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tableofferte"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "435ce2ce-1a40-4b09-a743-5c0152c31537",
+			"path": "/tableofferte/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "690599f4-0dd0-4fb4-800e-37a326767f51",
+			"name": "tableofferte",
+			"properties": [
+				{
+					"id": "5d09fe0d-cbe8-418c-a523-c52c5bca6604",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "59113468-857a-4c47-b162-a0137aa66145",
+					"parent": "",
+					"name": "cliente",
+					"objectType": "string"
+				},
+				{
+					"id": "bd5ffc15-78c8-43f8-b122-7e42c6cdda11",
+					"parent": "",
+					"name": "titolo",
+					"objectType": "string"
+				},
+				{
+					"id": "d04d2b40-c720-4e4b-9619-6d5e01244e75",
+					"parent": "",
+					"name": "oggettoOfferta",
+					"objectType": "string"
+				},
+				{
+					"id": "b4666919-f040-4a6c-81f1-66d37d6aba00",
+					"parent": "",
+					"name": "dataRichiesta",
+					"objectType": "string"
+				},
+				{
+					"id": "6c7cac27-01ae-4b0c-acbc-00979ba8d0de",
+					"parent": "",
+					"name": "richiedente",
+					"objectType": "string"
+				},
+				{
+					"id": "bbf9d5d3-077e-4387-aa71-d627a68e203e",
+					"parent": "",
+					"name": "path",
+					"objectType": "string"
+				},
+				{
+					"id": "2b77f72a-d4c3-4036-a103-9741333a6aca",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "c847cab7-8a2e-4889-a7af-0b1128257b36",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "d9083fde-df73-4377-80ec-67dbc9273128",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "95798c75-45e7-458c-ba1c-0580ca873a49",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "94b5d1a0-2dab-40ec-ba48-e55f1ce14d36",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "71ac435b-c959-4671-a68e-aac9b205128a",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "9740b549-6bfe-4d35-a937-7c72289031be",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "4a91c82a-c680-4676-af9c-dc3aa8864ac6",
+			"name": "count",
+			"properties": [
+				{
+					"id": "075f635e-a62f-488f-b7d4-a8a42fa58729",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "Offerte Api Table",
+	"endpoint": "/api/entity",
+	"ver": "23.11.23.2117",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "5251e2b7-7265-47ca-90da-e299616c3af1",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

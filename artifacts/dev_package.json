@@ -1,0 +1,147 @@
+{
+	"id": "5251e2b7-7265-47ca-90da-e299616c3af1",
+	"createdAt": "2023-11-21T16:15:57.000Z",
+	"createdBy": "murgiag",
+	"git": {
+		"remote": "https://github.com/GabrieleMurgia/neptune-gestioneOfferte.git"
+	},
+	"name": "Offerte Package",
+	"description": null,
+	"ver": "23.12.17.1822",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "e29ffebb-6df2-4c07-b62b-e642b22ef56b",
+			"application": "formofferta",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "5251e2b7-7265-47ca-90da-e299616c3af1"
+			}
+		},
+		{
+			"id": "b303b889-44d4-45aa-aa48-cc056e20a01f",
+			"application": "gestioneofferte",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "5251e2b7-7265-47ca-90da-e299616c3af1"
+			}
+		},
+		{
+			"id": "495a81af-57c1-4955-aae6-86730d72fe56",
+			"application": "controlloofferte",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "5251e2b7-7265-47ca-90da-e299616c3af1"
+			}
+		},
+		{
+			"id": "08490abb-aa8c-4d28-8dd8-bd1244ad7b67",
+			"application": "grafico_offerte",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "5251e2b7-7265-47ca-90da-e299616c3af1"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "8288dd58-8f15-4c10-97ff-ba293deab928",
+			"name": "OfferteApi",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "588f291a-3595-4747-a14c-77c51baa03b1",
+			"name": "Offerte Api Table",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "e67e704c-6dc0-4329-bb15-8eb638563b16",
+			"name": "tableofferte",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "e58bb5bc-c312-4e40-a0c5-8384b16a1ba1",
+			"name": "handleEmail",
+			"description": null
+		},
+		{
+			"id": "e03f1ccb-35f4-42f4-a1f8-63463c692955",
+			"name": "hanldePdf",
+			"description": null
+		},
+		{
+			"id": "50e1f617-b48c-4c3b-a92a-7040763ffbe8",
+			"name": "handleCheck",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "e2d18b19-e8c8-4c1e-a81e-6eef805289a9",
+			"name": "GestioneOfferte",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "041b4125-4f3a-4268-912d-50e45483d097",
+			"description": null,
+			"name": "App Offerta"
+		}
+	],
+	"category": [
+		{
+			"id": "68afec69-2ddf-4419-abd7-931f7a970065",
+			"description": null,
+			"name": "Offerte"
+		}
+	],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [
+		{
+			"id": "f5432db5-5ec7-46cc-8484-8afa267fad17",
+			"name": "Offerta Inviata",
+			"description": "Avviso Offerta Inviata"
+		},
+		{
+			"id": "e90d674f-b3b2-4a10-977b-8fa969704c90",
+			"name": "Offerta rifiutata",
+			"description": "Offerta rifiutata"
+		},
+		{
+			"id": "e200af57-bce3-4e97-ae87-00fd7d87c0e6",
+			"name": "Passaggio di stato",
+			"description": "Passaggio di stato offerta"
+		}
+	],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

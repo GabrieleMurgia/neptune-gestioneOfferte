@@ -1,0 +1,10 @@
+const selectedItem = modelselectedOfferObject.getData()
+
+let stato = JSON.parse(selectedItem.status).status
+
+selectedItem.status = stato
+var options = {
+    data: [selectedItem]
+};
+
+apiinsertItem(options);

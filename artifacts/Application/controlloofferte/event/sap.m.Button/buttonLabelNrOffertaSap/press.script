@@ -1,0 +1,10 @@
+let selectedItem = modelselectedOfferObject.getData()
+selectedItem.nrOffertaSap = inputLabelNrOffertaSap.getValue()
+
+
+var options = {
+    data:[selectedItem]
+};
+
+apiinsertSapNr(options);
+

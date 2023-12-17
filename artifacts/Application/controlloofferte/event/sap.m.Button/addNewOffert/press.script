@@ -1,0 +1,9 @@
+/* let currentState = addNewOffert.getText()
+handleNewOffer(currentState)
+
+if(currentState === "+"){
+    addNewOffert.setText("-")
+}else{
+    addNewOffert.setText("+")
+}
+ */

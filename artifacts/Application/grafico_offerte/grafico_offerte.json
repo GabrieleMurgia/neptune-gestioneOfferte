@@ -1,0 +1,245 @@
+{
+	"id": "08490abb-aa8c-4d28-8dd8-bd1244ad7b67",
+	"createdAt": "2023-11-26T21:32:37.000Z",
+	"createdBy": "murgiag",
+	"objects": [
+		{
+			"fieldNo": "3b428530-611c-4317-98c5-f45fdbf5b861",
+			"fieldName": "oFakePage",
+			"fieldParent": 0,
+			"fieldType": "sap.m.VBox",
+			"script": "",
+			"customComponent": false,
+			"bindingValue": "Generic Object",
+			"bindingType": "u",
+			"bindingSource": "P9",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "1d4fe438-5998-4883-8084-448cce9e4adc",
+					"fieldName": "Highchart",
+					"fieldParent": "3b428530-611c-4317-98c5-f45fdbf5b861",
+					"fieldType": "neptune.chart.highchart",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "5c282ebb-8bb8-4501-c82c-4c939ce2301c",
+							"fieldName": "Bar1",
+							"fieldParent": "1d4fe438-5998-4883-8084-448cce9e4adc",
+							"fieldType": "neptune.chart.series.bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "0af58035-1603-4600-84c5-4e53e4f361bd",
+					"fieldName": "Functions",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "615fc137-596b-4333-9661-232c470ae25a",
+							"fieldName": "Javascript",
+							"fieldParent": "0af58035-1603-4600-84c5-4e53e4f361bd",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Functions/Javascript.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "99846462-e019-4a71-b6c0-1429d7d8805c",
+					"fieldName": "Models",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "91ac6a4b-654a-42c5-8130-14b73d553006",
+							"fieldName": "infoUser",
+							"fieldParent": "99846462-e019-4a71-b6c0-1429d7d8805c",
+							"fieldType": "neptune.model.object",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "067f7fdd-4280-4aa3-b973-ca7f86650e0a",
+							"fieldName": "offerteModel",
+							"fieldParent": "99846462-e019-4a71-b6c0-1429d7d8805c",
+							"fieldType": "neptune.model.array",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "bf15321a-2825-48cd-da55-8bc20e33a23c",
+					"fieldName": "API",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "c4a937f2-8fd4-40dd-be83-bb7263adcda0",
+							"fieldName": "getUserInfo",
+							"fieldParent": "bf15321a-2825-48cd-da55-8bc20e33a23c",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "050bf018-d5af-499b-b610-fb66b082af9c",
+							"restOperation": "5d9ddce1-b5e3-43c1-e7ac-271d53843443",
+							"request": [],
+							"response": [
+								{
+									"status": "200",
+									"dataId": "79669150-4d12-406a-85d4-3f0114c3da89",
+									"modelFieldNo": "91ac6a4b-654a-42c5-8130-14b73d553006"
+								}
+							],
+							"attributes": [
+								{
+									"attribute": "setInitLoad",
+									"grouping": "Model",
+									"value": "online",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/getUserInfo/ajaxSuccess.script",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "f3f60c20-9426-4fb4-ad0d-9b6c1272396e",
+							"fieldName": "getUserOfferte",
+							"fieldParent": "bf15321a-2825-48cd-da55-8bc20e33a23c",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "588f291a-3595-4747-a14c-77c51baa03b1",
+							"restOperation": "60920d99-3cc9-4eef-97b1-53ce2e59c388",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/getUserOfferte/ajaxSuccess.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.12.11.1634",
+	"application": "grafico_offerte",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": true,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "588f291a-3595-4747-a14c-77c51baa03b1",
+			"name": "Offerte Api Table",
+			"ver": "23.11.23.2117"
+		},
+		{
+			"id": "050bf018-d5af-499b-b610-fb66b082af9c",
+			"name": "Get User Info",
+			"ver": "23.11.21.1824"
+		}
+	],
+	"package": "5251e2b7-7265-47ca-90da-e299616c3af1"
+}

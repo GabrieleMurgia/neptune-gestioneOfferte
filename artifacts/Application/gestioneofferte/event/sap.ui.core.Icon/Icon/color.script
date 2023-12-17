@@ -1,0 +1,16 @@
+let formattedText;
+
+if(status === "step1"){
+    formattedText = "orange"
+}else if(status === "step2"){
+    formattedText = "orange"
+}else if(status === "step3"){
+    formattedText = "orange"
+}else if(status === "step4"){
+   formattedText = "orange"
+}else if(status === "step5"){
+    formattedText = "green"
+}else{
+    formattedText = "red"
+}
+return formattedText;

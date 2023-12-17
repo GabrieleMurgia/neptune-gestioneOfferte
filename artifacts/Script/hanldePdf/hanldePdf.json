@@ -1,0 +1,26 @@
+{
+	"id": "e03f1ccb-35f4-42f4-a1f8-63463c692955",
+	"createdAt": "2023-11-23T10:42:55.000Z",
+	"createdBy": "murgiag",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "e67e704c-6dc0-4329-bb15-8eb638563b16",
+			"name": "tableofferte",
+			"contextname": "tableofferte"
+		}
+	],
+	"apis": [],
+	"name": "hanldePdf",
+	"ver": "23.11.28.1749",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "e2d18b19-e8c8-4c1e-a81e-6eef805289a9",
+	"package": "5251e2b7-7265-47ca-90da-e299616c3af1"
+}

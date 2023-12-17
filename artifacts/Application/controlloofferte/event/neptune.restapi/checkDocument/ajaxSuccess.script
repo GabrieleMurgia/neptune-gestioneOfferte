@@ -1,0 +1,34 @@
+sap.m.MessageToast.show("Stato Aggiornato");
+
+ 
+
+let rejectedItem = modelselectedOfferObject.getData()
+
+if(modelselectedOfferObject.getData().status === "step3" || modelselectedOfferObject.getData().status === "stepInt"){
+
+}else{
+    let stato = JSON.stringify({
+    status:rejectedItem.status,
+    motivo:textAreaReject.getValue()
+    })
+    rejectedItem.status = stato
+}
+
+
+
+
+
+
+var options = {
+    data: {
+         itemInfo:rejectedItem,
+         userInfo:modeluserInfo.getData(),
+    }
+};
+
+  
+
+apihandleEmail(options);
+
+
+/* reloadAfterOneSecond() */

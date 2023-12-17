@@ -1,0 +1,4 @@
+// Use MessageToast
+sap.m.MessageToast.show("Nr SAP inserito");
+
+/* reloadAfterOneSecond() */
