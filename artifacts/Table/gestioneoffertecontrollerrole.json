@@ -1,0 +1,29 @@
+{
+	"id": "04441907-db77-4605-bd05-4a1da5cf8fde",
+	"createdAt": "2023-12-18T08:10:26.000Z",
+	"createdBy": "murgiag",
+	"fields": [
+		{
+			"id": "a0bdb9fe-30c4-44ad-da3f-1be4e840d930",
+			"fieldName": "username",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "67e54fe2-e8cc-468e-86be-00d032246051",
+			"fieldName": "email",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "gestioneoffertecontrollerrole",
+	"description": null,
+	"ver": "23.12.18.925",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "5251e2b7-7265-47ca-90da-e299616c3af1",
+	"rolesRead": [],
+	"rolesWrite": []
+}

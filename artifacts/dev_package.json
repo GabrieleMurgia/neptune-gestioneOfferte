@@ -7,7 +7,7 @@
 	},
 	"name": "Offerte Package",
 	"description": null,
-	"ver": "23.12.17.1822",
+	"ver": "23.12.17.1825",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -67,6 +67,11 @@
 		{
 			"id": "e67e704c-6dc0-4329-bb15-8eb638563b16",
 			"name": "tableofferte",
+			"description": null
+		},
+		{
+			"id": "04441907-db77-4605-bd05-4a1da5cf8fde",
+			"name": "gestioneoffertecontrollerrole",
 			"description": null
 		}
 	],
